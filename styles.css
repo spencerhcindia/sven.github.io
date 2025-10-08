@@ -102,6 +102,10 @@ body {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+#project-links {
+    align-items: center;
+    text-decoration: none;
+}
 
 .quiz-link {
     font-size: large;
@@ -110,6 +114,16 @@ body {
     transition: transform .2s;
 }
 .quiz-link:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.imagery-link {
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    transition: transform .2s;
+}
+.imagery-link:hover {
     transform: scale(1.1);
     text-decoration: underline;
 }

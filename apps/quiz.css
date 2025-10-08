@@ -16,9 +16,14 @@ body {
     top: 20px;
 }
 
+.score-container {
+    padding-top: 1rem;
+}
+
 #score {
     font-weight: normal;
     letter-spacing: .3rem;
+    word-wrap: break-word;
 }
 
 #finalScore {
@@ -89,6 +94,21 @@ ul li {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 5px;
-
+    cursor: pointer;
 }
 
+li {
+    list-style-type: none;
+}
+
+select {
+    border: none;
+    font-size: 1em;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
